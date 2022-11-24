@@ -36,7 +36,8 @@ public class User{
     }
 
     public String toString(){
-        return "User:{id:" + id + ",name:" + name + ",age:" + age + "}";
+        String s = String.format("User{id: %s, name: %s, age: %s}", id, name, age);
+        return s;
     }
 
     public boolean equals(User user){
