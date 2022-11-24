@@ -13,6 +13,6 @@ public class Main{
         users.add(user2);
         users.add(user3);
 
-        System.out.println(users);
+        Util.printUserName(users);
     }
 }
