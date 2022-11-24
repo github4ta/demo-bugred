@@ -31,7 +31,6 @@ public class APITest {
     @Test
     void testGetUserInfo(){
         String endPoint = "http://users.bugred.ru/tasks/rest/getuser";
-
         String email = "yakush4@mail.ru";
 
         String requestBody = String.format("{\"email\":\"%s\"}",email);
